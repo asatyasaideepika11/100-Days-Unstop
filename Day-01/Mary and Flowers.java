@@ -57,6 +57,7 @@ class Main {
         {
             a[i]=sc.nextInt();
         }
+        sc.close();
         //Declaring two pointers left and right to track the arrayfrom forward and backward direction
         int left = 0, right = N - 1;
         while (left < right) 
